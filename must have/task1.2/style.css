@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    width: 300px;
+    height: 220px;
+}
+
+.content {
+    background: rgb(238, 190, 240);
+    height: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+#parallax {
+    background: red;
+    background: url(http://s1.1zoom.me/big0/818/426091-svetik.jpg);
+    height: 900px;
+    position: relative;
+    z-index: -1;
+}

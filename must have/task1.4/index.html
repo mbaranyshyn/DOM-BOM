@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Localization</title>
+
+</head>
+
+<body>
+    <div class="conteiner">
+        <form id="languages">
+            <label>
+            <input class="radio" type="radio" name="lang" value="ua">UA
+        </label>
+            <label>
+            <input class="radio" type="radio" name="lang" value="ru">RU
+        </label>
+            <label>
+            <input class="radio" type="radio" name="lang" value="eng">ENG
+        </label><br>
+            <input id="submit" type="submit">
+        </form>
+
+        <p class="text" data-version="ua">Доброго дня</p>
+        <p class="text" data-version="ru">Добрый день</p>
+        <p class="text" data-version="eng">Hello world:)</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

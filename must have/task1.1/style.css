@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://image.freepik.com/free-photo/beautiful-roses-over-great-white-wooden-background-with-space-on-the-right_24972-7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form {
+    display: block;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3px;
+    border-radius: 7px;
+    border: 2px solid rgb(20, 20, 20);
+    width: 230px;
+    height: 25px;
+}

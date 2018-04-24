@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.download-message {
+    display: none;
+}
+
+span {
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(233, 180, 233);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(https://image.freepik.com/free-photo/beautiful-roses-over-great-white-wooden-background-with-space-on-the-right_24972-7.jpg);
+}
