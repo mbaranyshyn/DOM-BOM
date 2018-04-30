@@ -12,9 +12,12 @@ if (localStorage.lang) {
     showText();
 };
 
+
 for (i = 0; i < langEls.length; i++) {
-    langEls[i].addEventListener('click', changeLang);
+    langEls[i].addEventListener('click', changeLang)
 };
+
+
 
 $submitButton.addEventListener('click', saveToStorage);
 
@@ -37,3 +40,4 @@ function changeLang(event) {
     defaultLang = event.target.value;
     showText();
 };
+document.querySelector(".radio").checked = true;
